@@ -11,6 +11,7 @@
   - [Hands-On: Practice with Basic CLI Commands](#hands-on-practice-with-basic-cli-commands)
 - [1. Why Version Control?](#1-why-version-control)
 - [2. What is Git?](#2-what-is-git)
+- [3. What is GitHub?](#3-what-is-github)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -57,6 +58,11 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 
 - Introduction to Git
 - Key features and benefits of Git
+
+## 3. [What is GitHub?](script/03_what_is_github.md)
+
+- Overview of GitHub
+- Key features and benefits of using GitHub
 
 
 ## Further Reading
