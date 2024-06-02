@@ -9,6 +9,7 @@
 - [Preparation](#preparation)
 - [Introduction to the Command Line Interface (CLI)](#introduction-to-the-command-line-interface-cli)
   - [Hands-On: Practice with Basic CLI Commands](#hands-on-practice-with-basic-cli-commands)
+- [1. Why Version Control?](#1-why-version-control)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -45,6 +46,11 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 ### [Hands-On: Practice with Basic CLI Commands](script/00-1_hands-on_practice_with_basic_cli_commands.md)
 
 - Guided exercises to practice basic CLI commands
+
+## 1. [Why Version Control?](script/01_why_version_control.md)
+
+- Importance of version control
+- Benefits of using version control systems (collaboration, history tracking, backup)
 
 
 ## Further Reading
