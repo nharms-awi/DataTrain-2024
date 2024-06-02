@@ -14,6 +14,7 @@
 - [3. What is GitHub?](#3-what-is-github)
 - [4. Basic Git Commands](#4-basic-git-commands)
   - [4.1 Hands-On: Practice with Basic Git Commands](#41-hands-on-practice-with-basic-git-commands)
+- [5. Git History](#5-git-history)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -75,6 +76,15 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 ### 4.1 [Hands-On: Practice with Basic Git Commands](script/04-1_hands-on_practice_with_basic_git_commands.md)
 
 - Guided exercises to practice basic Git commands
+
+## 5. [Git History](script/05_git_history.md)
+
+- Viewing the history of a repository
+- Undoing changes
+- Tagging commits
+- Viewing the commit log
+- Viewing the diff of a commit
+- Viewing the history of a file
 
 
 ## Further Reading
