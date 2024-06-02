@@ -7,6 +7,8 @@
   - [Learning objectives](#learning-objectives)
   - [Technical requirements](#technical-requirements)
 - [Preparation](#preparation)
+- [Introduction to the Command Line Interface (CLI)](#introduction-to-the-command-line-interface-cli)
+  - [Hands-On: Practice with Basic CLI Commands](#hands-on-practice-with-basic-cli-commands)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -34,6 +36,17 @@ This course is designed for beginners with no previous experience of Git or Gith
 Before attending the course follow the preparation guide
 
 Before attending the course, follow the steps in the [setup guide](preparation.md).
+
+## [Introduction to the Command Line Interface (CLI)](script/00_introduction_to_the_command_line_interface.md)
+
+- What is a CLI and why it is important
+- Basic CLI commands
+
+### [Hands-On: Practice with Basic CLI Commands](script/00-1_hands-on_practice_with_basic_cli_commands.md)
+
+- Guided exercises to practice basic CLI commands
+
+
 ## Further Reading
 
 - Git documentation [git-scm.com/doc](https://git-scm.com/doc)
