@@ -1,8 +1,8 @@
-# 5. Hands-On: Practice with Basic Git Commands
+# 4. Hands-On: Practice with Basic Git Commands
 
 Now that you understand the basic Git commands, let's practice by creating and working with your first repository.
 
-## 5.1 Step-by-Step Instructions
+## 4.1 Step-by-Step Instructions
 
 ### Step 1: Initialize a Repository
 
