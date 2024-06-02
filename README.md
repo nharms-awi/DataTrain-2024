@@ -12,6 +12,8 @@
 - [1. Why Version Control?](#1-why-version-control)
 - [2. What is Git?](#2-what-is-git)
 - [3. What is GitHub?](#3-what-is-github)
+- [4. Basic Git Commands](#4-basic-git-commands)
+  - [4.1 Hands-On: Practice with Basic Git Commands](#41-hands-on-practice-with-basic-git-commands)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -63,6 +65,16 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 
 - Overview of GitHub
 - Key features and benefits of using GitHub
+
+## 4. [Basic Git Commands](script/04_basic_git_commands.md)
+
+- Initializing a repository
+- Staging and committing changes
+- Viewing the status of a repository
+
+### 4.1 [Hands-On: Practice with Basic Git Commands](script/04-1_hands-on_practice_with_basic_git_commands.md)
+
+- Guided exercises to practice basic Git commands
 
 
 ## Further Reading
