@@ -16,6 +16,8 @@
   - [4.1 Hands-On: Practice with Basic Git Commands](#41-hands-on-practice-with-basic-git-commands)
 - [5. Git History](#5-git-history)
 - [6. Special Files](#6-special-files)
+- [7. Branching and Merging](#7-branching-and-merging)
+  - [7.1 Hands-On: Practice with Branching and Merging](#71-hands-on-practice-with-branching-and-merging)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -91,6 +93,18 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 
 - Description of special files in Git and their uses
 - Description of various special files for GitHub
+
+## 7. [Branching and Merging](script/07_branching_and_merging.md)
+
+- Creating branches
+- Switching branches
+- Merging branches
+- Resolving merge conflicts
+- Deleting branches
+
+### 7.1 [Hands-On: Practice with Branching and Merging](script/07-1_hands-on_practice_with_branching_and_merging.md)
+
+- Guided exercises to practice branching and merging
 
 
 ## Further Reading
