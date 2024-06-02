@@ -15,6 +15,7 @@
 - [4. Basic Git Commands](#4-basic-git-commands)
   - [4.1 Hands-On: Practice with Basic Git Commands](#41-hands-on-practice-with-basic-git-commands)
 - [5. Git History](#5-git-history)
+- [6. Special Files](#6-special-files)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -85,6 +86,11 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 - Viewing the commit log
 - Viewing the diff of a commit
 - Viewing the history of a file
+
+## 6. [Special Files](script/06_special_files.md)
+
+- Description of special files in Git and their uses
+- Description of various special files for GitHub
 
 
 ## Further Reading
