@@ -1,3 +1,6 @@
+## making changes for collaboration
+
+
 # Setup your environment
 
 To ensure a smooth start to the course on Monday, June 03, 2024, you'll need to install certain software, create a GitHub account, and configure your setup.
