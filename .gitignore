@@ -1,0 +1,7 @@
+# I dont want files that my editor creates to be part of the repository
+.vscode
+
+# When I generate PDFs from my marktdown files I dont want them to be added to the repository
+*.pdf
+
+_course/
