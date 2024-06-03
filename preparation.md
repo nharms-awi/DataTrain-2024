@@ -4,7 +4,7 @@ To ensure a smooth start to the course on Monday, June 03, 2024, you'll need to 
 
 If you already have a functioning Git environment and a GitHub account, feel free to skip ahead to [Verify your setup](#verify-your-setup). However, if you're missing any of these components, please follow the provided steps to establish your environment prior to the course commencement.
 
-##  Install git
+## Install git
 
 Install the latest version of git (2.45.1 or newer) on your machine.
 In addition to various security updates, some commands have been introduced or changed in the latest updates.
