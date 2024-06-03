@@ -12,7 +12,7 @@ Command:
   mkdir ~/repositories
   ```
 
-> Note: The `~` symbol represents your home directory.
+> Note: The `~` symbol represents your home directory. On a german keyboard, you can find the `~` symbol by pressing `Alt Gr` + `^`, then `Space`. On a US keyboard, you can find the `~` symbol by pressing `Shift` + `` ` ``.
 
 ### Step 2: Create a folder in your home directory called `datatrain-cli`
 Command:
