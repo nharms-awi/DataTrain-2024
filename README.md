@@ -25,7 +25,7 @@
 - [Further Reading](#further-reading)
 
 ## Course Info
-
+i need to find the code 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
 
 ### Course Background
