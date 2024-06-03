@@ -18,6 +18,7 @@
 - [6. Special Files](#6-special-files)
 - [7. Branching and Merging](#7-branching-and-merging)
   - [7.1 Hands-On: Practice with Branching and Merging](#71-hands-on-practice-with-branching-and-merging)
+- [8. Rebasing and Squashing Commits](#8-rebasing-and-squashing-commits)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -105,6 +106,14 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 ### 7.1 [Hands-On: Practice with Branching and Merging](script/07-1_hands-on_practice_with_branching_and_merging.md)
 
 - Guided exercises to practice branching and merging
+
+## 8. [Rebasing and Squashing Commits](script/08_rebasing_and_squashing_commits.md)
+
+- Rebasing commits
+- Squashing commits
+- Interactive rebasing
+- Resolving conflicts during rebasing
+- Using rebase to clean up commit history
 
 
 ## Further Reading
