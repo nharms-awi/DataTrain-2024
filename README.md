@@ -19,6 +19,8 @@
 - [7. Branching and Merging](#7-branching-and-merging)
   - [7.1 Hands-On: Practice with Branching and Merging](#71-hands-on-practice-with-branching-and-merging)
 - [8. Rebasing and Squashing Commits](#8-rebasing-and-squashing-commits)
+- [9. Collaborating with Git and GitHub](#9-collaborating-with-git-and-github)
+  - [9.1 Hands-On: Practice with Collaborating with Git and GitHub](#91-hands-on-practice-with-collaborating-with-git-and-github)
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -114,6 +116,19 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 - Interactive rebasing
 - Resolving conflicts during rebasing
 - Using rebase to clean up commit history
+
+## 9. [Collaborating with Git and GitHub](script/09_collaborating_with_git_and_github.md)
+
+- Forking repositories on GitHub
+- Cloning repositories
+- Pushing changes to a remote repository
+- Pulling changes from a remote repository
+- Collaborating with others on GitHub
+- Creating and managing pull requests
+
+### 9.1 [Hands-On: Practice with Collaborating with Git and GitHub](script/09-1_hands-on_practice_with_collaboration_on_git_and_github.md)
+
+- Guided exercises to practice collaborating with Git and GitHub
 
 
 ## Further Reading
