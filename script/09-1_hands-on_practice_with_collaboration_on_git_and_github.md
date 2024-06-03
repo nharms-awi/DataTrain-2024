@@ -17,7 +17,7 @@ Clone your forked repository to your local machine to work on it locally.
 - Open your terminal or Git Bash.
 - Run the following command, replacing `<your-username>` with your GitHub username:
     ```bash
-    git clone https://github.com/<your-username>/DataTrain-2024-handson.git
+    git clone git@github.com:<your-username>/DataTrain-2024-handson.git
     ```
 - Navigate into the cloned repository directory:
     ```bash
