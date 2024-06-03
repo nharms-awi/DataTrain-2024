@@ -25,7 +25,7 @@ Many version control systems store information as a list of file-based changes. 
 
 ### Branching and Merging
 
-One of Git’s most powerful features is its branching model. A branch in Git is a lightweight movable pointer to one of these snapshots. By default, Git creates a branch named master, but you can create new branches to develop features, fix bugs, or experiment, all without affecting the master branch. Once your work is ready, you can merge your changes back into the master branch. This enables:
+One of Git’s most powerful features is its branching model. A branch in Git is a lightweight movable pointer to one of these snapshots. By default, Git creates a branch named `main`, but you can create new branches to develop features, fix bugs, or experiment, all without affecting the main branch. Once your work is ready, you can merge your changes back into the main branch. This enables:
 
 - Parallel Development: Different features can be developed simultaneously.
 - Isolation: New work can be done without disturbing the main codebase.
