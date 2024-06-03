@@ -21,6 +21,9 @@
 - [8. Rebasing and Squashing Commits](#8-rebasing-and-squashing-commits)
 - [9. Collaborating with Git and GitHub](#9-collaborating-with-git-and-github)
   - [9.1 Hands-On: Practice with Collaborating with Git and GitHub](#91-hands-on-practice-with-collaborating-with-git-and-github)
+- [10. Wrap-Up](#10-wrap-up)
+- [Further Reading](#further-reading)
+
 ## Course Info
 
 [Course Details: Git/GitHub Operator Track](https://www.bremen-research.de/data-train/courses/course-details?event_id=72)
@@ -130,6 +133,9 @@ Before attending the course, follow the steps in the [setup guide](preparation.m
 
 - Guided exercises to practice collaborating with Git and GitHub
 
+## 10. [Wrap-Up](script/10_wrap-up.md)
+
+- Review of key concepts
 
 ## Further Reading
 
