@@ -14,16 +14,22 @@ Command:
 
 > Note: The `~` symbol represents your home directory. On a german keyboard, you can find the `~` symbol by pressing `Alt Gr` + `^`, then `Space`. On a US keyboard, you can find the `~` symbol by pressing `Shift` + `` ` ``.
 
+Move into the repositories directory:
+
+```bash
+cd ~/repositories
+```
+
 ### Step 2: Create a folder in your home directory called `datatrain-cli`
 Command:
   ```bash
-  mkdir ~/datatrain-cli
+  mkdir datatrain-cli
   ```
 
 ### Step 3: Navigate to the `datatrain-cli` folder
 Command:
   ```bash
-  cd ~/datatrain-cli
+  cd datatrain-cli
   ```
 
 ### Step 4: Create a file called `hello.txt`
