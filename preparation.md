@@ -206,7 +206,7 @@ cd sign-test
 git switch -c $(git config --get user.email)
 echo $(git config --get user.name) >> participants.md
 git add participants.md
-git commit -S -m "I, $(git config --get user.name), completed the setup"
+git commit -m "I, $(git config --get user.name), completed the setup"
 git log --show-signature
 ```
 
