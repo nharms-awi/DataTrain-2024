@@ -147,30 +147,6 @@ Enter passphrase for ~/.ssh/id_ed25519:
 Identity added: ~/.ssh/id_ed25519 (mail@example.com)
 ```
 
-## Optional: Signing your commits
-
-To digitally sign your commits, you can create a GPG key
-
-Please follow the instructions on the [GitHub Documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) page.
-
-After you have created your GPG key and added it to GitHub.
-Add the following configuration to git. Replace `<key>` with your key from the `gpg --armor --export <key>` command.
-
-```bash
-$ gpg --list-secret-keys --keyid-format=long
-/Users/hubot/.gnupg/secring.gpg
-------------------------------------
-sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
-uid                          Hubot <hubot@example.com>
-ssb   4096R/4BB6D45482678BE3 2016-03-10
-```
-
-Replace `3AA5C34371567BD2` with with yours in the following command.
-
-```bash
-git config --global user.signingkey 3AA5C34371567BD2
-```
-
 ## Set up GitHub account
 
 For the second part of the course we will use GitHub.
@@ -207,16 +183,13 @@ git switch -c $(git config --get user.email)
 echo $(git config --get user.name) >> participants.md
 git add participants.md
 git commit -m "I, $(git config --get user.name), completed the setup"
-git log --show-signature
+git log
 ```
 
 The last command should get you a response like:
 
 ```bash
 commit 018ce0ba29fab3413f0e3207159ec9bf8e383d24 (HEAD -> nico.harms@awi.de)
-gpg: Signature made Wed May 29 12:23:51 2024 CEST
-gpg:                using RSA key A462CD04E3B5F8753E782A6F3D9457FAB4414D33
-gpg: Good signature from "Nico Harms <nico.harms@awi.de>" [ultimate]
 Author: Nico Harms <nico.harms@awi.de>
 Date:   Wed May 29 12:23:51 2024 +0200
 
@@ -226,3 +199,47 @@ Date:   Wed May 29 12:23:51 2024 +0200
 If your output is not similar, there seems to be a problem with the setup.
 Take a look at the error message you received.
 If you can't fix this issue yourself, please send me a message (nico.harms@awi.de)
+
+## Optional: Signing your commits
+
+To digitally sign your commits, you can create a GPG key
+
+Please follow the instructions on the [GitHub Documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) page.
+
+After you have created your GPG key and added it to GitHub.
+Add the following configuration to git. Replace `<key>` with your key from the `gpg --armor --export <key>` command.
+
+```bash
+$ gpg --list-secret-keys --keyid-format=long
+/Users/hubot/.gnupg/secring.gpg
+------------------------------------
+sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
+uid                          Hubot <hubot@example.com>
+ssb   4096R/4BB6D45482678BE3 2016-03-10
+```
+
+Replace `3AA5C34371567BD2` with with yours in the following command.
+
+```bash
+git config --global user.signingkey 3AA5C34371567BD2
+```
+
+You may try the following commands, but this time add the `-S` option to your commit command, which is shorthand for `--gpg-sign`.
+
+```bash
+echo $(git config --get user.name) >> participants.md
+git add participants.md
+git commit -m "I, $(git config --get user.name), just signed my commit"
+git log --show-signature
+```
+
+```bash
+commit 018ce0ba29fab3413f0e3207159ec9bf8e383d24 (HEAD -> nico.harms@awi.de)
+gpg: Signature made Wed May 29 12:23:51 2024 CEST
+gpg:                using RSA key A462CD04E3B5F8753E782A6F3D9457FAB4414D33
+gpg: Good signature from "Nico Harms <nico.harms@awi.de>" [ultimate]
+Author: Nico Harms <nico.harms@awi.de>
+Date:   Wed May 29 12:33:51 2024 +0200
+
+    I, Nico Harms, just signed my commit
+```
