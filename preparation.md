@@ -131,22 +131,6 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-### Adding your SSH key to the ssh-agent
-
-Start your agent
-```bash
-$ eval "$(ssh-agent -s)"
-Agent pid 1979
-```
-
-Add your ssh key to the agent.
-
-```bash
-$ ssh-add ~/.ssh/id_ed25519
-Enter passphrase for ~/.ssh/id_ed25519:
-Identity added: ~/.ssh/id_ed25519 (mail@example.com)
-```
-
 ## Set up GitHub account
 
 For the second part of the course we will use GitHub.
